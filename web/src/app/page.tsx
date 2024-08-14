@@ -39,7 +39,7 @@ export default function Home() {
         />
         <div className="mr-10">
           <div className="text-4xl font-bold">
-            warp<span className="text-violet-400">ads</span>
+            Arvrtise<span className="text-violet-400">ads</span>
           </div>
           <div className="text-lg ">farcaster ads protocol</div>
         </div>
@@ -74,7 +74,7 @@ export default function Home() {
                       }`}
                       onClick={() => setCurrentTab("generate")}
                     >
-                      Generate WarpAds URL
+                      Generate Arvrtise Ad URL
                     </div>
                     <div
                       className={`cursor-pointer underline hover:text-violet-400 hover:cursor-pointer ${

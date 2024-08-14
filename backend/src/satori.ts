@@ -20,7 +20,7 @@ export default async function satoriFunc(
      <div style="display: flex; align-items: center; justify-content:center; gap:10px; margin-top:-30px; background-color: white; width: 100%">
         <img src=${
           // addImg
-          "https://warpads.vercel.app/logo/logo.png"
+          "https://i.imgur.com/EHpvTtY.png"
         } alt="Park" style="width: 50px; height: 50px; border-radius : 50% ;margin-top:5px">
         <div style="display :flex ;flex-direction: column;">
          <p style="font-size: 10px; align-self: center; max-width: 180px; display: flex; white-space: pre-wrap; word-wrap: break-word;">
