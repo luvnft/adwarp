@@ -39,7 +39,7 @@ export default function Home() {
         />
         <div className="mr-10">
           <div className="text-4xl font-bold">
-            Arvrtise<span className="text-violet-400">ads</span>
+            Arvrtise<span className="text-violet-400">Ad</span>
           </div>
           <div className="text-lg ">farcaster ads protocol</div>
         </div>

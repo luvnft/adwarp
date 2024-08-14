@@ -15,7 +15,7 @@ const WarpAdsForm = ({ fid }: { fid: number }) => {
     if (!account?.address) return;
     if (!url) return;
     const encodedUrl = btoa(JSON.stringify({ url, address: account?.address }));
-    setWarpAdsUrl(`https://ads.arvrtise.com/${encodedUrl}`);
+    setWarpAdsUrl(`https://ad.arvrtise.com/${encodedUrl}`);
   }, [url]);
 
   return (
@@ -37,7 +37,7 @@ const WarpAdsForm = ({ fid }: { fid: number }) => {
             Hey @{username}
           </p>
           <p className="mt-2 dark:text-gray-200">
-            This is your Arvrtise Ads URL for the frame
+            This is your Arvrtise Ad URL for the frame
           </p>
           <p className="mt-2 text-violet-600 break-all dark:text-violet-400">
             {warpAdsUrl}
